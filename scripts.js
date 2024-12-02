@@ -7,8 +7,7 @@ document.querySelectorAll(".add-to-cart").forEach((button) => {
     button.addEventListener("click", () => {
         // Increment the cart count
         cartCount++;
-        
-        // Display the cart count as a red bubble
+    
         const cartIcon = document.querySelector(".fa-shopping-bag");
         let bubble = document.querySelector(".cart-bubble");
         if (!bubble) {
